@@ -21,7 +21,7 @@ def get_input_text(source_file_name: str) -> str:
 
 def generate_article_html(raw_article_text: str, encoding: str) -> str:
     client = OpenAI(
-        api_key=os.environ.get("OPENAI_API_KEY"),  # This is the default and can be omitted
+        api_key=os.environ.get("OPENAI_API_KEY"),
     )
     chat_completion = client.chat.completions.create(
         messages=[
