@@ -1,0 +1,8 @@
+body {
+    padding: 2em;
+}
+
+p, figure {
+    padding-left: 1em;
+    text-indent: 1em;
+}
