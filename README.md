@@ -6,4 +6,7 @@ Outputs:
 1. artykul.html containing just the inside of a <body> tag as per request.
 2. podglad.html embedding the above in a fully functional html file for review purpose.
 
-Input and output files names are predefined inside the code.
+Input and output files names are predefined inside the code in 'config' dictionary enabling easy further development if specific input and output options are needed.
+
+Script is used by a following command with no parameters needed:
+python image_paste.py
