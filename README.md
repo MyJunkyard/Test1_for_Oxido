@@ -5,10 +5,10 @@
 ```pip install -r requirements.txt```
 
 ### Script run: 
-'''python image_paste.py'''
+```python image_paste.py```
 
 ### Tests run: 
-'''python -m pytest -v'''
+```python -m pytest -v```
 
 ## Description
 The script takes a raw text file and converts it into HTML code using OpenAI API with gpt-4o-mini model. OpenAI API is also used to place image placeholders with context-relevant captions and promt proposition for AI image generation.
