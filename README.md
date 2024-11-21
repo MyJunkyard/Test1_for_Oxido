@@ -2,7 +2,7 @@
 
 ## Script use
 ### Instalation: 
-'''pip install -r requirements.txt'''
+```pip install -r requirements.txt```
 
 ### Script run: 
 '''python image_paste.py'''
