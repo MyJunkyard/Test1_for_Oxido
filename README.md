@@ -6,6 +6,7 @@
 
 ### Script run: 
 ```python image_paste.py```
+
 Important: script needs an OpenAI API key stored in an .env file under the following variable:
 ```OPENAI_API_KEY```
 
