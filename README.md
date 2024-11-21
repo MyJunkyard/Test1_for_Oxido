@@ -1,12 +1,12 @@
 # Test1_for_Oxido
 
-Instalation:
+Instalation: 
 pip install -r requirements.txt
 
-Script run:
+Script run: 
 python image_paste.py
 
-Tests run:
+Tests run: 
 python -m pytest -v
 
 
