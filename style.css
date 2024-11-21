@@ -1,8 +1,27 @@
 body {
     padding: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p, figure {
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: large;
+    padding-top: 0.75em;
+}
+
+p {
     padding-left: 1em;
-    text-indent: 1em;
+}
+
+figure {
+    padding-left: 1em;
+    font-size: small;
+}
+
+footer {
+    font-style: italic;
+    font-size: small;
 }
