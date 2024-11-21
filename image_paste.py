@@ -27,15 +27,15 @@ def generate_article_html(raw_article_text: str, encoding: str) -> str:
         messages=[
             {
                 "role": "system",
-                "content": f'''You are a experienced frontend developer.
+                "content": f'''You are an experienced frontend developer.
                 HTML you write is always well-structured, standard-compliant, semantic, valid and accessible.
                 Encode the output in {encoding}.
                 Add proper HTML tags to the text given by user to make it a content of a an article.
                 Make sure not to include any tags outside of <article>.
                 Do not prefix the article with "html" string.
-                Also, find good places for adding images to the article and annote them with <img src="image_placeholder.jpg" alt=""> 
-                and fill in the alt atrribute with a promt suggestion for creating an appropriate image.
-                Wrap img tags in <figure> and generate appropriate captions.'''
+                Also, find good places for adding images to the article and annotate them with <img src="image_placeholder.jpg" alt=""> 
+                and fill in the alt atrribute with a prompt suggestion for creating a suitable image.
+                Wrap img tags in <figure> and generate relevant captions.'''
             },
             {
                 "role": "user",
