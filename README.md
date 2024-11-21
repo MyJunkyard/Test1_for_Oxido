@@ -1,5 +1,6 @@
 # Test1_for_Oxido
 
+## Script use
 ### Instalation: 
 '''pip install -r requirements.txt'''
 
@@ -9,7 +10,7 @@
 ### Tests run: 
 '''python -m pytest -v'''
 
-## Description:
+## Description
 The script takes a raw text file and converts it into HTML code using OpenAI API with gpt-4o-mini model. OpenAI API is also used to place image placeholders with context-relevant captions and promt proposition for AI image generation.
 
 ### Outputs:
