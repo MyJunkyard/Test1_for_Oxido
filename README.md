@@ -10,7 +10,7 @@ Important: script needs an OpenAI API key stored in an .env file under the follo
 ```OPENAI_API_KEY```
 
 ### Tests run: 
-```python -m pytest -v```
+```python -m pytest test_image_paste.py -v```
 
 ## Description
 The script takes a raw text file and converts it into HTML code using OpenAI API with gpt-4o-mini model. OpenAI API is also used to place image placeholders with context-relevant captions and promt proposition for AI image generation.
